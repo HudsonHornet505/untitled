@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="YnjQqk_n$!v;0%XIXq~h">Hand</variable></variables><block type="device_gesture_event" id="r_dLqGkBVJrdw:W4MLgk" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="3v11:{:c6w|/S9fZZ2]#"><field name="VAR" id="YnjQqk_n$!v;0%XIXq~h">Hand</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id=";;0)G4)%$6LsD1}@=Xd`"><value name="min"><shadow type="math_number" id="u?n5R6:P*3C%PBGy!^lj"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="2E0}.Rg[{?M}?!@cq@[s"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="}?!lCbT9?,?z8i2,NZHA"><mutation elseif="2"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="CMq0H)Rg^CM0O!Bp=A=o"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="tTP$,;Z7M%)%o(MQ]Rg+"><field name="VAR" id="YnjQqk_n$!v;0%XIXq~h">Hand</field></block></value><value name="B"><shadow type="math_number" id="k8LM-$WkS-w5[_h[3FYB"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id=",86?h%S*+sOxP1IfNL[x"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="qU_s0HSYRAa`1Q;$:+~o"><field name="LEDS">`
+        # # # . . 
+        # . # . . 
+        # # # . . 
+        # . . . . 
+        # . . . .
+        `</field></block></next></block></statement><value name="IF1"><block type="logic_compare" id="[4]tK7h[o1O]r*I+9w~z"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="]6qiGiHW7~(7NB6v7[Hs"><field name="VAR" id="YnjQqk_n$!v;0%XIXq~h">Hand</field></block></value><value name="B"><shadow type="math_number" id="lft}M3P#_mZMhZ%Vk{0,"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="sr]o(m|X~iXl7F9cb[?a"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="U$I;5bHw.{FFxl!b[y`;"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></next></block></statement><value name="IF2"><block type="logic_compare" id="t`ajfO;kS.0CAj9Ad/+."><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="VR1~q(Mo?B(^Ua#A|pmY"><field name="VAR" id="YnjQqk_n$!v;0%XIXq~h">Hand</field></block></value><value name="B"><shadow type="math_number" id="1mpp)Kn([-wQb2De,uhg"><field name="NUM">3</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="n#/~t~7:cS4)p~M6IDX?"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="h*$9Ms#X%d:gy#AEA`Ct"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field></block></next></block></statement></block></next></block></statement></block><block type="device_button_event" id="a#$$c`xCrXg8VjD.HrQN" x="551" y="263"><field name="NAME">Button.A</field></block><block type="device_button_event" id="-Li{4Fft$d%#Q2utT{Gh" x="1020" y="253"><field name="NAME">Button.B</field></block><block type="device_print_message" id="@yQ#||JtawfD#G5a7|Lm" disabled="true" x="681" y="1329"><value name="text"><shadow type="text" id="306PG/+r.o#;=?:P/t]," disabled="true"><field name="TEXT">YOU WIN!</field></shadow></value></block></xml>
